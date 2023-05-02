@@ -1,0 +1,88 @@
+@media screen and (max-width: 1600px) {
+    #request div{
+        height: 100px;
+        width: 100px;
+    }
+    #request svg{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    #answer svg{
+        height: 100px !important;
+        width: 100px !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #father{
+        flex-direction: column;
+        height: max-content !important; 
+    }
+    #left{
+        height: max-content !important;
+        width: 100%;
+    }
+    #right{
+        height: 1000px !important;
+        width: 100% !important;
+    }
+    #request div{
+        height: 150px;
+        width: 150px;
+    }
+    #request svg{
+        height: 100px !important;
+        width: 100px !important;
+    }
+    #answer svg{
+        height: 150px !important;
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    #request div{
+        height: 100px;
+        width: 100px;
+    }
+    #request svg{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    #answer svg{
+        height: 100px !important;
+        width: 100px !important;
+    }
+}
+@media screen and (max-width: 425px) {
+    #request div{
+        height: 80px;
+        width: 80px;
+    }       
+    #request svg{
+        height: 50px !important;
+        width: 50px !important;
+    }
+    #answer svg{
+        height: 80px !important;
+        width: 80px !important;
+    }
+    #logo{
+        font-size: 30px !important;
+    }
+    #logo_wrp{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    #content{
+        font-size: 12px !important;
+    }
+    #request{
+        overflow: hidden !important;
+        padding: 0px !important;
+    }
+    #answer{
+        overflow: hidden !important;
+        padding: 0px !important;
+    }
+}
